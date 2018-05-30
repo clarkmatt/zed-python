@@ -74,9 +74,6 @@ def main():
             #key = cv2.waitKey(1)
             key = 113
 
-        if img_num%100==0: print(img_num)
-        img_num += 1
-
     cv2.destroyAllWindows()
 
     #print_camera_information(cam)
